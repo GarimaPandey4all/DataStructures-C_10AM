@@ -1,0 +1,54 @@
+multiway trees:
+
+m-way trees
+
+B-tree : BST : ordered tree/ascending tree
+
+Insertion
+m b-tree: m = order= 3, m-1 = 2
+insert 1 to 10
+
+Leaf nodes are at the same level
+
+Deletion in B-Tree: 
+
+1. if target key is in leaf node.
+2. if target key is in internal node.
+
+order , m = 5
+
+min children = [m/2] = 2.5 = 3
+max children = 5
+
+min keys = [m/2] - 1 = 2
+max keys = 4 = m-1
+
+leaf node
+
+1. That leaf node contains more than min. no of keys.
+2. That leaf node contains min. no. of keys.
+	a.) borrow from immediate left node(sibling)
+	b.) borrow from immediate right node (sibling)
+	c.) left node or right node--> parent node -->merge
+
+Internal node:
+
+	a.) Inorder Predeccessor
+	b.) Inorder Successor
+	c.) Merge with sibling but the help of parent node
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
